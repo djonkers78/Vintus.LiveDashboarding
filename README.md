@@ -1,20 +1,14 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+A free tool to automatically refresh Power BI Dashboards/apps with intervals of 5, 10, 20, 60 seconds? Without relying on the backend refresh schedule?
+
+A free tool (on top of the Chromium project) to trigger the JavaScript refresh button in the Power BI service. So if you have a report with a direct query connection you can live stream your data with a single Pro license and without detect data changes features. 
+
+It uses a simple windows forms application with a chromium browser inside.
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Compile in Visual Studio and the output folder contains an executable you can use. Select your dashboard or app. Klik the refresh button after setting the interval and it will refresh your reportdata (so not the page itself).
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+You can run this dashboard  on a monitor without human interaction.
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+If you find difficulties please report so we can fix.
